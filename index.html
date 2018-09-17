@@ -4,6 +4,36 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
+    <!-- Navigation -->
+    <div class="w3-bar w3-red">
+      <a href="#" class="w3-bar-item w3-button">Animation Collaborative</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Workshops</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Instructors</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Resources</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">About</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+    <div class="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+      <a href="#" class="w3-bar-item w3-button">Workshops</a>
+      <a href="#" class="w3-bar-item w3-button">Instructors</a>
+      <a href="#" class="w3-bar-item w3-button">Resources</a>
+      <a href="#" class="w3-bar-item w3-button">About</a>
+    </div>
+    
     <h1>Hello World</h1>
+    
+    <!-- JavaScript for navigation -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        }
+        else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
   </body>
 </html>
