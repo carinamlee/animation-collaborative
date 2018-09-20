@@ -21,6 +21,17 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Source Sans Pro', sans-serif; font-weight:
   background-size: cover;
 }
 
+.parallax-fixed {
+  background-image: url("../images/generic.jpg"); /* The image used */
+  min-height: 400px; /* Set a specific height */
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 /* Bootstrap typography classes */
   .text-uppercase {text-transform: uppercase;}
