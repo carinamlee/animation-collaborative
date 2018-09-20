@@ -1,6 +1,25 @@
-body {color: #616161; font-family: 'Source Sans Pro', sans-serif;}
+html {
+  height: 100%; /* Required to make parallax background fit the whole screen */
+}
+
+body {
+  color: #616161;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100%; /* Required to make parallax background fit the whole screen */
+}
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Source Sans Pro', sans-serif; font-weight: bold;}
+
+.parallax {
+  background-image: url("../images/generic.jpg"); /* The image used */
+  height: 100%; /* Full height */
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* Bootstrap typography classes */
