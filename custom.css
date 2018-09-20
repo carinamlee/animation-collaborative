@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Source Sans Pro', sans-serif; font-weight:
 
 address {font-style: normal;}
 
+.w3-dropdown-hover:hover > .w3-button:first-child {
+  background-color: transparent; /* Overrides background color when hovering over a dropdown menu item*/
+  color: #00bcd4; /* Overrides font color when hovering over a dropdown menu item */
+}
+
 .parallax-fluid {
   background-image: url("../images/generic.jpg"); /* The image used */
   height: 100%; /* Full height */
