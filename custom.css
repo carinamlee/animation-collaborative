@@ -10,6 +10,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Source Sans Pro', sans-serif; font-weight: 700;}
 
+small {font-size: 65%;}
+
 address {font-style: normal;}
 
 .w3-dropdown-hover:hover > .w3-button:first-child {
