@@ -14,6 +14,8 @@ small {font-size: 65%;}
 
 address {font-style: normal;}
 
+.w3-content {max-width: 1170px;}
+
 .w3-dropdown-hover:hover > .w3-button:first-child {
   background-color: transparent; /* Overrides background color when hovering over a dropdown menu item*/
   color: #00bcd4; /* Overrides font color when hovering over a dropdown menu item */
