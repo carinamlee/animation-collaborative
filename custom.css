@@ -43,6 +43,10 @@ address {font-style: normal;}
   background-size: cover;
 }
 
+.text-wrap {
+  white-space: normal; /* Overrides nowrap value for buttons and lets paragraphs wrap onto another line */
+}
+
 
 /* Bootstrap typography classes */
   .text-uppercase {text-transform: uppercase;}
