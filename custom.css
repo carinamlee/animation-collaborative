@@ -21,8 +21,8 @@ address {font-style: normal;}
   color: #00bcd4; /* Overrides font color when hovering over a dropdown menu item */
 }
 
-.w3-btn:hover > footer {
-  color: #87ceeb; /* Custom hover state for workshop panels */
+.w3-btn:hover > footer p {
+  color: #87ceeb !important; /* Custom hover state for workshop panels */
 }
 
 .parallax-fluid {
