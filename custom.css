@@ -21,7 +21,7 @@ address {font-style: normal;}
   color: #00bcd4; /* Overrides font color when hovering over a dropdown menu item */
 }
 
-.w3-btn:hover > footer p {
+.w3-btn:hover > footer .card-btn-primary {
   color: #87ceeb !important; /* Custom hover state for workshop panels */
 }
 
